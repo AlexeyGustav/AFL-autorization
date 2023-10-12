@@ -3,8 +3,8 @@
   font-style: normal;
   font-weight: 400;
   src: local("Circe"),
-       url("/f/f/Circe-Regular.ttf") format("ttf"),
-       url("/f/f/Circe-Regular.woff") format("woff");
+       url("../f/Circe-Regular.ttf") format("ttf"),
+       url("../f/Circe-Regular.woff") format("woff");
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   src: local("PTSans"),
-       url("/f/f/PTSans-Regular.ttf") format("ttf"),
-       url("/f/f/PTSans-Regular.woff") format("woff"),
+       url("../f/PTSans-Regular.ttf") format("ttf"),
+       url("../f/PTSans-Regular.woff") format("woff"),
 }
 
 :root{
