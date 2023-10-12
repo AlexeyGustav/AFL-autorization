@@ -13,7 +13,7 @@
   font-weight: 400;
   src: local("PTSans"),
        url("../f/PTSans-Regular.ttf") format("ttf"),
-       url("../f/PTSans-Regular.woff") format("woff"),
+       url("../f/PTSans-Regular.woff") format("woff");
 }
 
 :root{
