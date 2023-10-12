@@ -1,0 +1,76 @@
+/* Согласие на обработку персональных данных  */
+
+.consent__header {
+  display: inline-flex;
+  padding-top: 40px; 
+}
+
+.header__prev {
+  width: 27px;
+  height: 26px;
+  background-image: url('../i/captive-page/prev.svg');
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 50px;
+  border: none;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+h1 {
+  max-width: 340px;
+  color: #000;
+  font-family: Circe;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.consent__content p, li{
+  color: #000;
+  font-family: PTSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.consent__content{
+  padding-left: 24px;
+  padding-right: 16%;
+}
+
+/* медиа запросы для согласия на обработку персональных данных*/
+
+@media screen and (max-width: 413px) {
+  .container__captive-page {
+    width: 100%;
+    margin: 0;
+    border-radius: 0px;
+  }
+  .captive-page__colums{
+    grid-template-columns: 100%;
+  }
+  .captive-page__logo {
+    display: flex;
+    border-radius: 0px;
+    padding: 0px 32px;
+  }
+  .captive-page__logo img{
+    width: 110px;
+    padding-top: 0px;
+  }
+  .captive-page__logo p{
+    font-size: 18px;
+    padding: 45px 0px 30px 30px;
+  }
+  .consent__header{
+    text-align: center;
+  }
+  .consent__content, .consent__header{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
