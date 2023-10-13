@@ -63,6 +63,7 @@ body{
   line-height: 31px;
   padding: 88px 25px;
   text-align: left;
+  overflow-wrap: break-word;
 }
 
 /* главные медиазапросы */
