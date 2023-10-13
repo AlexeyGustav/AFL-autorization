@@ -45,6 +45,10 @@ h3 {
   line-height: 20px;
 }
 
+.container__personal-data{
+ padding-left: 4%;
+}
+
 /* медиа запросы для политики в отношении обработки персональных данных*/
 
 @media screen and (max-width: 413px) {
