@@ -3,6 +3,7 @@
 .consent__header {
   display: inline-flex;
   padding-top: 40px; 
+  padding-left: 4%;
 }
 
 .header__prev {
@@ -37,11 +38,18 @@ h1 {
 }
 
 .consent__content{
-  padding-left: 24px;
+  padding-left: 4%;
   padding-right: 16%;
 }
 
 /* медиа запросы для согласия на обработку персональных данных*/
+
+@media screen and (max-width: 675px) {
+  .header__prev{
+    width: 50px;
+    margin-right: 0;
+  }
+}
 
 @media screen and (max-width: 413px) {
   .container__captive-page {
@@ -53,24 +61,28 @@ h1 {
     grid-template-columns: 100%;
   }
   .captive-page__logo {
+    height: 235px;
     display: flex;
     border-radius: 0px;
-    padding: 0px 32px;
+    padding: 0px 4%;
   }
   .captive-page__logo img{
-    width: 110px;
+    width: 55%;
     padding-top: 0px;
   }
   .captive-page__logo p{
     font-size: 18px;
-    padding: 45px 0px 30px 30px;
+    padding: 45px 0px 30px 4%;
   }
   .consent__header{
+    padding-top: 20px;
     text-align: center;
   }
   .consent__content, .consent__header{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
-
+  .captive-page__colums {
+    border-radius: 0px;
+  }
 }

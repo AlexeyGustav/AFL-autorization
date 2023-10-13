@@ -39,7 +39,6 @@ body{
   display: grid;
   grid-template-columns: 320px auto;
   align-items: stretch;
-  height: 834px;
   background-color: #fff;
   border-radius: 24px;
 }
@@ -74,7 +73,6 @@ body{
   }
   .captive-page__colums{
     grid-template-columns: 278px auto;
-    height: 835px;
   }
   .captive-page__logo p{
     font-size: 24px;
@@ -98,13 +96,13 @@ body{
 
 @media screen and (max-width: 768px) {
   .captive-page__logo img{
-    width: 200px;
+    width: 90%;
   }
   .container__captive-page {
     width: 100%;
   }
   .captive-page__colums{
-    grid-template-columns: 180px auto;
+    grid-template-columns: 40% auto;
   }
   .captive-page__logo p{
     font-size: 20px;
