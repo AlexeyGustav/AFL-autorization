@@ -23,49 +23,56 @@
         </div>
         <!-- форма Авторизации -->
         <div class="captive-page__text">
-          <p class="t-style language">
-            Пожалуйста, выберите язык:
-          </p>
-  
-          <ul class="wrapper__text">
-            <li>
-              <a href="" class="t-style select"><img src="../i/captive-page/flag-ru.png" alt="">Русский</a>
-            </li>
-            <li>
-              <a href="" class="t-style"><img src="../i/captive-page/flag-en.png" alt="">English</a>
-            </li>
-          </ul>
-  
-          <div class="text__input-form">
-            <form method='POST' enctype="multipart/form-data">
-              <div class="input-form__col">
-                <label for="name" class="t-style">Ваше имя (как в посадочном талоне)</label>
-                <input type="text" name="name"/>
-              </div>
-              <div class="input-form__col">
-                <label for="sirname" class="t-style">Ваша фамилия (как в посадочном талоне)</label>
-                <input type="text" name="sirname"/>
-              </div>
-              <div class="input-form__col">
-                <label for="seat" class="t-style">Номер места:</label><br>
-                <input type="text" name="seat"/>
-              </div>
-            </form>
+        
+
+          <div class="wrapper__content">
+            <p class="t-style language">
+              Пожалуйста, выберите язык:
+            </p>
+
+
+            <ul class="wrapper__text">
+              <li>
+                <a href="" class="t-style select"><img src="../i/captive-page/flag-ru.png" alt="">Русский</a>
+              </li>
+              <li>
+                <a href="" class="t-style"><img src="../i/captive-page/flag-en.png" alt="">English</a>
+              </li>
+            </ul>
+    
+            <div class="text__input-form">
+              <form method='POST' enctype="multipart/form-data">
+                <div class="input-form__col">
+                  <label for="name" class="t-style">Ваше имя (как в посадочном талоне)</label>
+                  <input type="text" name="name"/>
+                </div>
+                <div class="input-form__col">
+                  <label for="sirname" class="t-style">Ваша фамилия (как в посадочном талоне)</label>
+                  <input type="text" name="sirname"/>
+                </div>
+                <div class="input-form__col">
+                  <label for="seat" class="t-style">Номер места:</label>
+                  <input type="text" name="seat"/>
+                </div>
+              </form>
+            </div>
+    
+            <p class="t-style available">
+              Если вы не заполнили фамилию, имя и номер места, некоторые функции портала будут вам недоступны. 
+            </p>
+    
+            <div class="text__buttons">
+              <input type="submit" class="t-style register" name="enter" value="Авторизоваться" />
+              <input type="submit" class="t-style" name="next" value="Продолжить без авторизации" />
+            </div>
+            <p class="text__register">
+              Нажимая на кнопку «Авторизоваться» я выражаю свое <a href="">согласие на обработку персональных данных</a> и подтверждаю, что ознакомлен c <a href="">политикой обработки персональных данных.</a>
+            </p>
           </div>
-  
-          <p class="t-style">
-            Если вы не заполнили фамилию, имя и номер места, некоторые функции портала будут вам недоступны. 
-          </p>
-  
-          <div class="text__buttons">
-            <input type="submit" class="t-style register" name="enter" value="Авторизоваться" />
-            <input type="submit" class="t-style" name="next" value="Продолжить без авторизации" />
-          </div>
-          <p class="text__register">
-            Нажимая на кнопку «Авторизоваться» я выражаю свое <a href="">согласие на обработку персональных данных</a> и подтверждаю, что ознакомлен c <a href="">политикой обработки персональных данных.</a>
-          </p>
+          
+          
+        </div>
       </div>
-      
     </div>
   </main>
    
