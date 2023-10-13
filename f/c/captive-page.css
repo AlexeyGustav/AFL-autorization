@@ -169,7 +169,7 @@
     align-items: flex-start;
   }
   .text__buttons{
-    width: min-content;
+    max-width: 325px;
   }
   .language{
     left: 0px;
