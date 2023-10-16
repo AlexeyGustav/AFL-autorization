@@ -215,11 +215,14 @@
   }
 
   .wrapper__content{
-    padding: 9%;
+    padding: 0% 9% 0px 9%;
     align-items: stretch;
   }
+  .language{
+    padding-top: 20px;
+  }
   .input-form__col input {
-    max-width: 80vw;
+    max-width: 77vw;
   }
   .input-form__col{
     width: 100%;
