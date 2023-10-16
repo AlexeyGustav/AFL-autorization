@@ -1,6 +1,7 @@
 /* стили для политики конфидециальности */
 .wrapper__privacy-policy{
-  padding-right: 9px;
+  padding-left: 4%;
+  padding-right: 20%;
 }
 
 .privacy-policy__head{
@@ -9,7 +10,7 @@
  }
  
 .policy__prev {
-  width: 27px;
+  width: 29px;
   height: 26px;
   background-image: url('../i/captive-page/prev.svg');
   background-repeat: no-repeat;
@@ -56,6 +57,9 @@ h1 {
 }
 
 @media screen and (max-width: 1023px) {
+  .wrapper__privacy-policy{
+    padding-right: 15%;
+  }
   .container__captive-page {
     width: 770px;
   }
@@ -69,32 +73,38 @@ h1 {
 }
 
 @media screen and (max-width: 768px) {
+  .wrapper__privacy-policy{
+    padding-right: 10%;
+  }
   .container__captive-page {
-    width: 672px;
+    width: 100%;
   }
   .captive-page__colums{
     grid-template-columns: 208px auto;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .container__captive-page {
-    width: 524px;
+@media screen and (max-width: 600px) {
+  .wrapper__privacy-policy{
+    padding-right: 4%;
   }
-  .captive-page__text{
-    /* padding-left: 10px; */
+  .policy__prev {
+    width: 40px;
+    margin-right: 0;
+  }
+  h1{
+    font-size: 22px;
   }
 }
 
-@media screen and (max-width: 539px) {
-  .captive-page__colums{
-    grid-template-columns: 158px auto;
+@media screen and (max-width: 490px) {
+  .wrapper__privacy-policy{
+    padding-right: 0%;
+    padding-left: 2%;
   }
-  .container__captive-page {
-    width: 444px;
-  }
-  .captive-page__text{
-    /* padding-left: 5px; */
+  h1{
+    font-size: 1em;
+    font-weight: 550;
   }
 }
 
@@ -106,14 +116,15 @@ h1 {
   }
   .captive-page__colums{
     grid-template-columns: 100%;
+    border-radius: 0px;
   }
   .captive-page__logo {
     display: flex;
     border-radius: 0px;
-    padding: 0px 32px;
+    padding: 0px 7px;
   }
   .captive-page__logo img{
-    width: 110px;
+    width: 180px;
     padding-top: 0px;
   }
   .captive-page__logo p{
@@ -124,8 +135,8 @@ h1 {
     max-width: 100%;
   }
   .wrapper__privacy-policy{
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   .privacy-policy__head{
     padding-top: 7px;
@@ -135,17 +146,18 @@ h1 {
     margin-right: 10px;
   }
   h1{
-    padding-left: 0;
+    font-size: 22px;
+    font-weight: 400;
   }
 }
 
 @media screen and (max-width: 374px) {
-  .wrapper__privacy-policy{
-    padding: 0 29px;
-  }
   .captive-page__logo p{
-    font-size: 15px;
-    padding: 32px 0px 20px 20px;
+    padding: 32px 0px 20px 13px;
+  }
+  .wrapper__privacy-policy{
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -154,9 +166,14 @@ h1 {
     padding: 0 15px;
   }
   .captive-page__logo p{
-    padding: 32px 0px 20px 20px;
+    word-break: break-all;
+    padding: 32px 0px 20px 13px;
+  }
+  h1{
+    word-break: break-all;
   }
   .wrapper__privacy-policy{
-    padding: 0 9px;
+    padding-left: 2%;
+    padding-right: 2%;
   }
 }
